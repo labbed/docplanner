@@ -1,0 +1,62 @@
+
+
+*{
+ display: block;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    
+
+
+}
+.docplanner-header{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.docplanner-Logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+.active{
+    color: aqua;
+}
+.introduction{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.introduction-logo{
+    width: 10px;
+    height: 10px;   
+    align-items: center;
+    margin-top: auto;
+}
+.introduction-title{
+color: #5dc6b0;
+}
+
+.introduction-text{
+    display: flex;
+}
+.services{
+    display: flex;
+}
+
+.services-card-patients{
+background-color: #5dc6b0;
+padding: 20px;
+border-radius: 30px;
+}
+.services-card-doctors{
+    background-color: bisque;
+
+}
+.services-card-clinics{
+    background-color: blueviolet;
+}
